@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="Bss_Bestseller::css/owl.carousel.css" />
+		<css src="Bss_Bestseller::css/owl.theme.default.css"/>
+	</head>
+	<body>
+		<referenceContainer name="content">
+			<!-- <container name="block.container" htmlTag="div" htmlId="slider.container" htmlClass="block-home-container" before=""> -->
+				<block class="Bss\Bestseller\Block\Bestseller" name="Slider" template="Bss_Bestseller::bestseller.phtml"/>
+		<!-- 	</container> -->
+		</referenceContainer>  
+	</body>
+      
+</page>

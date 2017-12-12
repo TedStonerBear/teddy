@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Bss_CallUs::callus" title="Call Us" module="Bss_CallUs" sortOrder="51" resource="Bss_CallUs::callus"/>
+        <add id="Bss_CallUs::post" title="Contact info" module="Bss_CallUs" sortOrder="10" action="bss_callus/post" resource="Bss_CallUs::post" parent="Bss_CallUs::callus"/>
+    </menu>
+</config>
